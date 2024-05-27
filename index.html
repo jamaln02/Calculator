@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>My Calculator</title>
+  </head>
+  <body class="bg-light d-flex justify-content-center mt-4">
+    <form class="text-center row-cols-0 mb-1 p-2">
+      <input
+        type="text"
+        class="screen p-2 mt-2 border-0 rounded-2 col-12"
+        id="screen"
+        placeholder="0"
+      />
+
+      <div>
+        <input type="button" value="7" class="number btu col-2" />
+        <input type="button" value="8" class="number btu col-2" />
+        <input type="button" value="9" class="number btu col-2" />
+        <input type="button" value="+" class="operators btu col-2" />
+      </div>
+      <div>
+        <input type="button" value="4" class="number btu col-2" />
+        <input type="button" value="5" class="number btu col-2" />
+        <input type="button" value="6" class="number btu col-2" />
+        <input type="button" value="-" class="operators btu col-2" />
+      </div>
+      <div>
+        <input type="button" value="1" class="number btu col-2" />
+        <input type="button" value="2" class="number btu col-2" />
+        <input type="button" value="2" class="number btu col-2" />
+        <input type="button" value="*" class="operators btu col-2" />
+      </div>
+      <div>
+        <input type="button" value="0" class="number btu col-2" />
+        <input type="button" value="/" class="operators btu col-2" />
+        <input type="button" value="del" class="delet col-2" id="delet" />
+        <input type="button" value="c" class="clear col-2" />
+      </div>
+      <input
+        type="button"
+        value="="
+        class="btn btn-success col-12 mb-3"
+        id="result"
+      />
+    </form>
+
+    <script src="java script/bootstrap.bundle.min.js"></script>
+    <script src="java script/main.js"></script>
+  </body>
+</html>
